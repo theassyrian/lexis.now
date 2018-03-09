@@ -47,6 +47,7 @@ Then, run `now` from *within* the directory of `lexis.now`:
 # Credits
 
 - The favicon is called [Right Align](https://thenounproject.com/search/?q=word%20counter&i=377289) by [Chameleon Design](https://thenounproject.com/Chamedesign)
+- Most of the styling was adapted from [Evil Rabbit](https://twitter.com/evilrabbit_)'s [front site](https://github.com/evilrabbit/front).
 
 
 <br>
