@@ -11,11 +11,15 @@ counter = function() {
 	$('span').html(count);
 };
 
+callCounter = function() {
+	setTimeout(counter);
+}
+
 jQuery(document).ready(function($) {
-	$('textarea').change(counter);
-	$('textarea').keydown(counter);
-	$('textarea').keypress(counter);
-	$('textarea').keyup(counter);
-	$('textarea').blur(counter);
-	$('textarea').focus(counter);
+	$('textarea').change(callCounter);
+	$('textarea').keydown(callCounter);
+	$('textarea').keypress(callCounter);
+	$('textarea').keyup(callCounter);
+	$('textarea').blur(callCounter);
+	$('textarea').focus(callCounter);
 });
