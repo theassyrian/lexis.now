@@ -11,15 +11,6 @@ counter = function() {
 	$('span').html(count);
 };
 
-callCounter = function() {
-	setTimeout(counter);
-}
-
 jQuery(document).ready(function($) {
-	$('textarea').change(callCounter);
-	$('textarea').keydown(callCounter);
-	$('textarea').keypress(callCounter);
-	$('textarea').keyup(callCounter);
-	$('textarea').blur(callCounter);
-	$('textarea').focus(callCounter);
+	$('textarea').on('input paste propertychange', counter);
 });
