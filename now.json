@@ -1,0 +1,11 @@
+{
+    "name": "lexis",
+    "public": false,
+    "alias": "lexis.now.sh",
+    "files": [
+        "index.html",
+        "counter.js",
+        "css/styles.css",
+        "imgs/favicon.png"
+    ]
+}

@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <title>Lexis - Minimal Word Counter</title>
+      <link rel="shortcut icon" href="imgs/favicon.png">
+      <meta name="description" content="Minimal word counter">
+      <meta name="keywords" content="lexis,word,counter">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+      <meta name="theme-color" content="black">
+      <meta name="apple-mobile-web-app-capable" content="yes" />
+      <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <link rel="stylesheet" href="css/styles.css">
+      <script src="counter.js" type="text/javascript"></script>
+   </head>
+   <body>
+      <div class="container">
+         <div class="heading">
+            <form action="/check" method="post">
+               <div class="center">
+                  <h1><span>0</span> Words</h1>
+                  <textarea type="text" name="textarea" placeholder="Your text..."></textarea><br>
+               </div>
+            </form>
+         </div>
+         <div class="footer">
+            <div class="left">
+               © <script type="text/javascript">document.write(new Date().getFullYear());</script> — <a href="mailto:nikolaskam@gmail.com">k4m4</a>
+            </div>
+            <div class="right">
+               <a href="https://github.com/k4m4/cf-detect.now" target="_blank">Github</a>
+               <a href="https://twitter.com/nikolaskama" target="_blank">Twitter</a>
+               <div class="chat">
+                  <a href="https://nikolaskama.me/contact" target="_blank">Chat</a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
